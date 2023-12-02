@@ -6,8 +6,9 @@
     <title>Tabelas</title>
 
 <style>
+
     body {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     table {
@@ -20,23 +21,37 @@
         padding: 10px;
     }
 
+    
+
     thead, tfoot {
         background-color: gray;
-        color: white;
+        color: rgb(118, 21, 21);
     }
 
         td.num {
         text-align: right;
     }
+
+    caption{
+        background-color: rgba(0, 0, 255, 0.505);
+        padding: 10px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+    }
 </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
+    
+    <br>
+    <br>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -66,8 +81,10 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
-            <td class="num">0000</td>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">0000</td>
+            </tr>
         </tfoot>
     </table>
 </body>
