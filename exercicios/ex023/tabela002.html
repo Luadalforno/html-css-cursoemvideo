@@ -14,6 +14,7 @@
     table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
 
     td, th {
@@ -26,6 +27,12 @@
     thead, tfoot {
         background-color: gray;
         color: rgb(118, 21, 21);
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
     }
 
         td.num {
@@ -65,27 +72,76 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td class="num">45 919 049</td>
+                <td class="num">45.919.049</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td class="num">21 168 791</td>
+                <td class="num">21.168.791</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td class="num">17 264 943</td>
+                <td class="num">17.264.943</td>
             </tr>
             <tr>
                 <td>Bahia</td>
-                <td class="num">14 873 064</td>
+                <td class="num">14.873.064</td>
             </tr>
             <tr>
                 <td>Paraná</td>
-                <td class="num">11 433 957</td>
+                <td class="num">11.433.957</td>
             </tr>
             <tr>
                 <td>Rio Grande do Sul</td>
-                <td class="num">11 377 239</td>
+                <td class="num">11.377.239</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>3.506.853</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>3.273.227</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>3.015.208</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>2.298.696</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td>1.777.225</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>4.018.650</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7.164.788</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>7.018.254</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9.557.706</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.337.357</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>881.935</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1.572.866</td>
             </tr>
         </tbody>
         <tfoot>
