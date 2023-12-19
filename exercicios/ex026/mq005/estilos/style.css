@@ -21,7 +21,7 @@ header > h1 {
     text-align: center;
 }
 
-#burger {
+#burguer {
     background-color: rgb(83, 78, 78);
     display: block;
     color: white;
@@ -54,6 +54,7 @@ menu > ul > li  > a {
 
 menu > ul > li > a:hover {
     background-color: gray;
+    
 }
 
 main {
